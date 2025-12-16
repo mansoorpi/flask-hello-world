@@ -11,10 +11,12 @@ pip install -r requirements.txt
 ## Running the App
 
 ```bash
-python app.py
+python3 app.py
 ```
 
-The app will start on `http://localhost:5000`
+The app will start on `http://localhost:5001`
+
+**Note:** Port 5001 is used to avoid conflicts with AirPlay Receiver on macOS (which uses port 5000).
 
 ## Endpoints
 
